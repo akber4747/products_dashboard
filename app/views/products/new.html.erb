@@ -1,0 +1,14 @@
+<h1>Products Dashboard (new)</h1>
+<p>Add a product here</p>
+	<form action="<%= products_path %>">
+		<input type="submit" value="BACK TO MAIN PRODUCTS PAGE" class="btn btn-success">
+	</form>
+<%= simple_form_for @product do |f| %>
+	<%= f.input :name %>
+	<%= f.input :description %>
+	<%= f.input :pricing %>
+	<%= f.association :category %>
+	<%= f.button :submit %>
+	<% end %>
+
+	

@@ -1,0 +1,28 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ @import 'bootstrap';
+
+
+*{
+font-family: helvetica;	
+}
+h1{
+	font-weight: bold;
+}
+.btn{
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+a {
+	color: white;
+}
+.success {
+	color: green;
+}
+.error {
+	color:red;
+}
+
